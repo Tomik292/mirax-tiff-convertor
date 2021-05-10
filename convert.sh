@@ -1,8 +1,8 @@
 #!/bin/bash
 FILE=$1
 
-DIR_WITH_MIRAX=/home/debian/images/
-DIR_WITH_TIFF=/home/debian/tiff/
+DIR_WITH_MIRAX=/images
+DIR_WITH_TIFF=/tiff
 
 DIRNAME=`dirname "$FILE"`
 BASENAME=`basename "$FILE"`
